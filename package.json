@@ -1,5 +1,5 @@
 {
-  "name": "LCDwriteapp",
+  "name": "xdk-iot-lcd-driver",
   "description": "",
   "version": "0.0.0",
   "main": "main.js",
