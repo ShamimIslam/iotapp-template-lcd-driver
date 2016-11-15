@@ -6,10 +6,10 @@
   "visible" : true,
   "sortWeight" : "0.0",
   "repoName":"iotapp-template-lcd-driver",
-  "tooltip":"A node.js based app that can work with the UPM library or directly with the I2C bus",
-  "description":"A node.js based app that can work with the UPM library or directly with the I2C bus",
+  "tooltip":"Communicate with the I2C bus directly or using the UPM library.",
+  "description":"An IoT Node.js app that illustrates communicating with an LCD device over the I2C bus, using the UPM library or direct access.",
   "articleurl":"https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app",
-  "keywords":["I2C"],
+  "keywords":["I2C","UPM","LCD"],
   "targets": ["edison","galileo"],
   "runtimes": ["node"]
 }
