@@ -1,6 +1,5 @@
-Demonstration of code to drive an LCD
+Intel® XDK IoT Node.js\* LCD Demo App
 =====================================
-
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
