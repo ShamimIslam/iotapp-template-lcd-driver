@@ -13,36 +13,45 @@ Intel XDK, please start with
 
 App Overview
 ------------
-This example drives a JHD1313m1 LCD as found in the Grive Starter
-Kit. This connects to an i2c buss.
+This example drives a JHD1313m1 LCD as found in the Grove Starter
+Kit. This connects to an I2C buss.
 
 The code can be used in either of two ways. By default, it will
-use the upm module. This is much the simpler way to drive a upm
+use the UPM module. This is much the simpler way to drive a UPM
 supported device.
 
-By commenting out the call to the upm code and uncommenting the
+By commenting out the call to the UPM code and uncommenting the
 useLcd call, you can also drive the device directly using the lcd
-module. The purpose of this is to demonstrate driving the i2c
+module. The purpose of this is to demonstrate driving the I2C
 buss directly from Javascript. Notice that we need delays between
 some of the bus transactions. There is no direct equivalent to
 "wait" in Javascript. Instead we have to set up a callback on a
 timer. So lcd.js creates a queue driven execution engine for
-i2c devices.
+I2C devices.
 
 The advantage of this is that you can do other things while
 waiting for the buss to respond. For some applications this may
-be important but for most, the blocking waits used by upm will
+be important but for most, the blocking waits used by UPM will
 not cause problems.
 
-Important Sample App Files
---------------------------
+Important App Files
+-------------------
 * main.js
 * lcd.js
 * package.json
 
-Important Sample Project Files
-------------------------------
+Important Project Files
+-----------------------
 * README.md
 * LICENSE.md
-* project-name.xdk
-* project-name.xdke
+* <project-name>.xdk
+
+Tested IoT Node.js Platforms
+----------------------------
+* [Intel® Galileo Board](http://intel.com/galileo)
+* [Intel® Edison Development Platform](http://intel.com/edison)
+
+This sample can run on other IoT [Node.js](http://nodejs.org) development
+platforms, that include the appropriate sensor hardware, but may require
+changes to the I/O initialization and configuration code in order to work on
+those other platforms.

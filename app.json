@@ -1,15 +1,15 @@
 {
-  "title":"LCD with backlight driver and demonstrator",
-  "projectTypeName": "com.intel.xdk.projecttype.iotapp",
-  "sample": false,
-  "template": true,
+  "title" : "LCD with backlight driver and demonstrator",
+  "projectTypeName" : "com.intel.xdk.projecttype.iotapp",
+  "sample" : false,
+  "template" : true,
   "visible" : true,
   "sortWeight" : "0.0",
-  "repoName":"iotapp-template-lcd-driver",
-  "tooltip":"Communicate with the I2C bus directly or using the UPM library.",
-  "description":"An IoT Node.js app that illustrates communicating with an LCD device over the I2C bus, using the UPM library or direct access.",
-  "articleurl":"https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app",
-  "keywords":["I2C","UPM","LCD"],
-  "targets": ["edison","galileo"],
-  "runtimes": ["node"]
+  "repoName" : "iotapp-template-lcd-driver",
+  "tooltip" : "Communicate with the I2C bus directly or using the UPM library.",
+  "description" : "An IoT Node.js app that illustrates communicating with an LCD device over the I2C bus, using the UPM library or direct access.",
+  "articleUrl" : "https://software.intel.com/en-us/xdk/docs/using-templates-nodejs-iot",
+  "keywords" : ["I2C","UPM","LCD"],
+  "targets" : ["edison","galileo"],
+  "runtimes" : ["node"]
 }
