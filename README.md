@@ -1,5 +1,6 @@
 Intel® XDK IoT Node.js\* LCD Demo App
 =====================================
+
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
@@ -19,6 +20,7 @@ information regarding the upm sensor and actuator library APIs.
 
 App Overview
 ------------
+
 This example drives a JHD1313m1 LCD as found in the Grove Starter
 Kit. This connects to an I2C buss.
 
@@ -42,18 +44,21 @@ not cause problems.
 
 Important App Files
 -------------------
+
 * main.js
 * lcd.js
 * package.json
 
 Important Project Files
 -----------------------
+
 * README.md
 * LICENSE.md
 * \<project-name\>.xdk
 
 Tested IoT Node.js Platforms
 ----------------------------
+
 * [Intel® Galileo Board for Arduino](http://intel.com/galileo)
 * [Intel® Edison Board for Arduino](http://intel.com/edison)
 
